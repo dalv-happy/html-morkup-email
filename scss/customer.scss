@@ -1,9 +1,9 @@
 @import "foundation";
 
 .header-bg {
-  background-image: url(https://s8.hostingkartinok.com/uploads/images/2017/08/1e4f67a5a62c14117ea5368949a64542.jpg);
+  background-image: url(https://s8.hostingkartinok.com/uploads/images/2017/08/c617f6e85329bda785826f7bd8af6037.jpg);
   background-repeat: no-repeat;
-  height: 120px;
+  height: 176px;
 }
 
 .paragraph-content {
@@ -68,4 +68,20 @@ table.survey-button  {
       }
     }
   }
+}
+
+/*callout*/
+table.callout {
+  width: auto!important;
+  border: 3px solid #ffffff;
+  border-collapse: separate;
+}
+th.callout-inner {
+  line-height: 1;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 12px 32px!important;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
 }

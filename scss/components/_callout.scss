@@ -24,7 +24,7 @@ $callout-margin-bottom: $global-margin !default;
 
 /// Border around a callout.
 /// @type Border
-$callout-border: 1px solid darken($callout-background, 20%) !default;
+$callout-border: 0px solid darken($callout-background, 20%) !default;
 
 /// Border around a callout with the `.success` class.
 /// @type Border
@@ -45,11 +45,11 @@ $callout-border-alert: 1px solid darken($alert-color, 20%) !default;
 table.callout {
   margin-bottom: $callout-margin-bottom;
   Margin-bottom: $callout-margin-bottom;
+  width: auto!important;
 }
 
 th.callout-inner {
-  width: 100%;
-  border: $callout-border;
+  border: 0px;
   padding: $callout-padding;
   background: $callout-background;
 
